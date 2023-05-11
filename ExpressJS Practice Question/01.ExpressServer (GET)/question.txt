@@ -1,0 +1,6 @@
+﻿Create server in express js to accept the request from the client. Based on the route
+specified by user send the response (Hint use get method)
+ 
+If route is ‘/’- send response as information which will be displayed on browser
+If route is ‘/books’ - send response as books information which will be displayed on
+browser
