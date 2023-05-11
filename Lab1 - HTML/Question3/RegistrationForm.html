@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Registration</title>
+</head>
+<style>
+    form{display: flex; }
+    input{width: 35%; height: 8%; margin: 5px;}
+    .part1{margin-left: 30%;}
+</style>
+<body>
+    <h1 align="center">VIP Registration</h1>
+    <form>
+        <div class="part1">
+            <label for="prefix">Prefix:</label>  <input type="text"> <br>
+            <label for="name">Name:</label> <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name"> <br>
+            <label for="pronoun">Preferren Pronouns:</label> <input type="text"> <br>
+            <label for="email">Email:</label> <input type="email" placeholder="sample@example.com"> <br>
+            <label for="Wphone">Work Phone:</label> <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+            <label for="Cphone">Cell Phone:</label> <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+            <label for="job">Job Title:</label> <input type="text"> <br>
+            <label for="company">Company:</label> <input type="text"> <br>
+            <label for="arrival">Flight arrival time (to be picked up)</label> <br> <input type="time"> <br>
+            <label for="departure">Flight departure time (to be dropped off)</label> <br> <input type="time"> <br>
+        </div>
+        <div class="part2">
+            <label for="pickUp">Where do you want to be picked up?</label> <br> <input type="text"> <br>
+            <label for="dropOff">Where do you want to be dropped off?</label> <br> <input type="text"> <br>
+            <label for="spouse">Will your spouse attend? Leave name if so</label> <br> <input type="text"> <br>
+            <label for="vipEvent">Are you interested in attending the VIP networking event ?</label> <br> 
+            <input type="radio" name="Yes" value="yes"> Yes
+            <input type="radio" name="No" value="no" > No <br>
+            <label for="eventGifts">Would you like to recieve event gifts ?</label> <br> 
+            <input type="radio" name="Yes" value="yes"> Yes
+            <input type="radio" name="No" value="no" > No
+        </div>
+    </form>
+</body>
+</html>
