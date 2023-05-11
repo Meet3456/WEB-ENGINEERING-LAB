@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <script src="./signup.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-box">
+        <div class="box-2">
+            <h1>Sign Up</h1>
+            <form action="" id="form">
+                <div class="username">
+                    <h3>Username:</h3>
+                    <input type="text" name="username" id="username" placeholder="Enter your username" id="username" value="" onkeydown="validation()">
+                    <span id="text"></span>
+                </div>
+                <div class="username">
+                    <h3>Email:</h3>
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.com" onkeydown="validationemail()">
+                    <span id="text2"></span>
+                </div>
+
+                <div class="username">
+                    <h3>Password:</h3>
+                <input type="password" name="password" placeholder="Enter your password" id="password" onkeydown="validationpass()">
+                <span id="text3"></span>
+                </div>
+
+                <div class="username">
+                    <h3>Confirm Password:</h3>
+                <input type="password" name="" id="password2" placeholder="Reenter your password">
+                <span id="text4"></span>
+                </div>
+                <br>
+                <input class="btn" type="button" value="SIGN UP" onclick="matchpassword()">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
