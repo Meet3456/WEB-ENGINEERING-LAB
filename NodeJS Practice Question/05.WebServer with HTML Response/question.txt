@@ -1,0 +1,2 @@
+﻿Create a server in node-js to accept the request from the client. On receiving request send
+HTML form in response. Display message on console that Server running on local host

@@ -1,0 +1,3 @@
+﻿Write a program in node js to read the existing file data, display on console, and write the
+data in the existing file
+(Hint use fs module of Node js)

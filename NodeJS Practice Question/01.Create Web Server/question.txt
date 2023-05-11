@@ -1,0 +1,3 @@
+﻿Q1.Create a server in node-js to accept the request from the client. On receiving request send
+response either in HTML format or in Text format. Display message on console that Server
+running on local host.
