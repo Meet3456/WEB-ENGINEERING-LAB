@@ -1,0 +1,17 @@
+﻿@media screen and (max-width: 767px) {
+	.form-group {
+		margin-bottom: 1rem;
+	}
+	.btn {
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.form-group {
+		margin-bottom: 2rem;
+	}
+	.btn {
+		margin-top: 2rem;
+	}
+}

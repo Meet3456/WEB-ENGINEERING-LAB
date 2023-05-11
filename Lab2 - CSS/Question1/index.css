@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+}
+.navbar a {
+    float:left;
+    display: block;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5%;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar-right{
+    float:right;
+}
+.search input[type=text]{
+    width:250px;
+    height:25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+}  
+.search{
+    float:right;
+    margin:7px;
+}  
+.search button{
+    background-color: black;
+    border:1px solid white;
+    color: white;
+    float: right;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.webTech{
+    padding-top: 90px;
+    background-color: green;
+}
+.webTech > h1 , .cProgramming > h1, .java > h1{
+    padding-left: 5%
+}
+.webTech > p , .cProgramming > p , .java > p{
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.cProgramming{
+    padding-top: 25px;
+    background-color: pink;
+}
+.java{
+    padding-top: 25px;
+    background-color: #fff;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer > p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
