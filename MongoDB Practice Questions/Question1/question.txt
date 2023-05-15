@@ -1,0 +1,2 @@
+﻿Create Student Database, create collection student information and perform insert, update,
+remove operation. 

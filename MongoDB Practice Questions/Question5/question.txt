@@ -1,0 +1,2 @@
+﻿Create Mongo dB Schema using mongoose module and find first data from data base and
+ display on the browser 

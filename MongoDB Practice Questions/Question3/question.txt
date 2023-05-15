@@ -1,0 +1,1 @@
+﻿Create Mongo dB Schema using mongoose module and insert data into database

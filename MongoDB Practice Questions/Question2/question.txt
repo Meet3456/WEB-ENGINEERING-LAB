@@ -1,0 +1,5 @@
+﻿Create Student Database, create collection student information and perform insert
+operation. Write the following queries:
+ Display student information who has secured more than 90%.
+ Display student information who failed the examination
+ Display student information who stays in Andheri 
